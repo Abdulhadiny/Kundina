@@ -10,12 +10,16 @@ export const metadata: Metadata = {
   description: 'Your personal diary and productivity companion',
   manifest: '/manifest.json',
   themeColor: '#3b82f6',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
     title: 'Kundina',
   },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({

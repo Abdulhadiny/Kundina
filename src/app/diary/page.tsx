@@ -1,5 +1,5 @@
-import DiaryList from '@/components/diary/DiaryList';
+import DiaryView from '@/components/diary/DiaryView';
 
 export default function DiaryPage() {
-  return <DiaryList />;
+  return <DiaryView />;
 }

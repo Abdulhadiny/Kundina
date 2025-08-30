@@ -1,4 +1,4 @@
-import { CheckSquare, Clock, Plus } from 'lucide-react';
+import { CheckSquare, Clock } from 'lucide-react';
 
 export default function TodoPage() {
   return (
